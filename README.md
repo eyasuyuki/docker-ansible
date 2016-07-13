@@ -101,13 +101,13 @@ setup.yml
     - common
 ```
 
-## Provision by Ansible
+## Provisioning by Ansible
 
 ```
 ansible-playbook setup.yml -vvvv
 ```
 
-## Docker commit
+## To save docker image
 
 If you want to save docker image, Put that line into your Ansible Playbook.
 
@@ -119,6 +119,6 @@ If you want to save docker image, Put that line into your Ansible Playbook.
 ## Run bash on Docker container
 
 ```
-docker exec -it centos7 bash
+docker exec -it <container name> bash
 ```
 
