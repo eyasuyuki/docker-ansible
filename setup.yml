@@ -1,0 +1,4 @@
+- hosts: all
+  connection: docker
+  roles:
+    - common

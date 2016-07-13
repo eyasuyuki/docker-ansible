@@ -1,0 +1,4 @@
+centos:
+  image: centos:latest
+  container_name: centos7
+  entrypoint: tail -f /dev/null
